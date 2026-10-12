@@ -5,7 +5,7 @@
 # AiAi
 product/priv-app/AICorePrebuilt-aicore_20260302.01_RC00/AICorePrebuilt-aicore_20260302.01_RC00.apk:product/priv-app/AICorePrebuilt/AICorePrebuilt.apk;PRESIGNED
 product/priv-app/DeviceIntelligenceNetworkPrebuiltAstrea/DeviceIntelligenceNetworkPrebuiltAstrea.apk;PRESIGNED
-product/priv-app/DevicePersonalizationAiAiPrebuiltPixel2022/DevicePersonalizationAiAiPrebuiltPixel2022.apk;PRESIGNED
+product/priv-app/DevicePersonalizationAiAiPrebuiltPixel2022/DevicePersonalizationAiAiPrebuiltPixel2022.apk;PRESIGNED;OVERRIDES=DevicePersonalizationPrebuiltPixel2020
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED;OVERRIDES=SettingsIntelligence
 
 # Audio
