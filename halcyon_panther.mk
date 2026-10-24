@@ -8,7 +8,8 @@
 
 # Inherit some common stuff
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+# CHANGED: Inherit Halcyon's common phone configuration instead of YAAP
+$(call inherit-product, vendor/halcyon/config/common.mk)
 
 # Inherit device configuration
 DEVICE_CODENAME := panther
@@ -54,7 +55,8 @@ PRODUCT_BRAND := google
 PRODUCT_DEVICE := $(DEVICE_CODENAME)
 PRODUCT_MANUFACTURER := Google
 PRODUCT_MODEL := Pixel 7
-PRODUCT_NAME := yaap_$(DEVICE_CODENAME)
+# CHANGED: Product name updated to Halcyon
+PRODUCT_NAME := halcyon_$(DEVICE_CODENAME)
 PRODUCT_SYSTEM_BRAND := google
 PRODUCT_SYSTEM_MANUFACTURER := Google
 PRODUCT_SYSTEM_NAME := generic_system_google
@@ -63,7 +65,7 @@ PRODUCT_SYSTEM_NAME := generic_system_google
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-# YAAP Flags
+# Halcyon/YAAP Flags
 TARGET_SUPPORTS_64_BIT_APPS := true
 TARGET_ENABLE_BLUR := true
 
