@@ -75,3 +75,13 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
+
+# Include Google Apps (GApps)
+WITH_GMS := true
+
+# Set Maintainer Name
+HALCYON_MAINTAINER := Nabil Zaman
+HALCYON_BUILD_TYPE := Unofficial
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    ro.halcyon.maintainer=Nabil Zaman
